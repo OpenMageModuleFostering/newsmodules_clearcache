@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<NewsModules_ClearCache>
+			<version>0.1.0</version>
+		</NewsModules_ClearCache>
+	</modules>
+	<global>
+		<models>
+			<clearcache>
+				<class>NewsModules_ClearCache_Model</class>
+			</clearcache>
+		</models>
+	</global>
+	<crontab>
+		<jobs>
+			<newsmodules_clearcache>
+				<schedule>
+					<cron_expr>0 1 * * *</cron_expr>
+				</schedule>
+				<run>
+					<model>clearcache/observer::refreshCache</model>
+				</run>
+			</newsmodules_clearcache>
+			<newsmodules_clearcache_images>
+				<schedule>
+					<cron_expr>0 2 1 * *</cron_expr>
+				</schedule>
+				<run>
+					<model>clearcache/observer::refreshImages</model>
+				</run>
+			</newsmodules_clearcache_images>
+		</jobs>
+	</crontab>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>NewsModules_ClearCache</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Automatically clears the cache and images' cache</summary>
+    <description>Automatically clears the cache and images' cache</description>
+    <notes>Automatically clears the cache and images' cache</notes>
+    <authors><author><name>Alessandro Lioce</name><user>alioce</user><email>a.lioce@ne-ws.it</email></author></authors>
+    <date>2014-06-09</date>
+    <time>16:02:42</time>
+    <contents><target name="magecommunity"><dir name="NewsModules"><dir name="ClearCache"><dir name="Model"><file name="Observer.php" hash="56ab17d06448c6caccce05b4d2ec061e"/></dir><dir name="etc"><file name="config.xml" hash="7bfbe2523b1927e609bf09b946c52074"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="NewsModules_ClearCache.xml" hash="217ceb8f8740e326b1785394f40330f5"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.13</min><max>5.4.29</max></php></required></dependencies>
+</package>

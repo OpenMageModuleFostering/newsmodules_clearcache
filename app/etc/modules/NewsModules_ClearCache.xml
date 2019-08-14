@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <NewsModules_ClearCache>
+            <active>true</active>
+            <codePool>community</codePool>
+        </NewsModules_ClearCache>
+    </modules>
+</config>
