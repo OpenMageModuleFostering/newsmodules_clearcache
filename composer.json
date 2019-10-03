@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/NewsModules_ClearCache",
+    "name": "OpenMageModuleFostering\/NewsModules_ClearCache",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
     "description": "Automatically clears the cache and images' cache",
     "authors": [
-    {
-        "name": "Alessandro Lioce",
-        "email": "a.lioce@ne-ws.it"
-    }
-],
+        {
+            "name": "Alessandro Lioce",
+            "email": "a.lioce@ne-ws.it"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
